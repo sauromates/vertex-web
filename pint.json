@@ -1,0 +1,20 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "declare_strict_types": true,
+        "single_line_empty_body": true,
+        "ordered_imports": {
+            "case_sensitive": false
+        },
+        "final_class": true,
+        "single_trait_insert_per_statement": true,
+        "mb_str_functions": true,
+        "protected_to_private": true,
+        "modernize_types_casting": true,
+        "no_superfluous_elseif": true,
+        "no_superfluous_phpdoc_tags": {
+            "remove_inheritdoc": true
+        },
+        "no_useless_else": true
+    }
+}
